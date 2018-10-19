@@ -6,10 +6,18 @@
         <artifactId>middle-ware-main</artifactId>
         <groupId>com.bsb</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>middle-ware-oauth2</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>middle-ware-main</artifactId>
+            <groupId>com.bsb</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
