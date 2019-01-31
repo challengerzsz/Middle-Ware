@@ -1,4 +1,4 @@
-package com.bsb.websocket;
+package com.xiyou3g.websocket;
 
 /**
  * @author zeng on 18-10-19.

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>middle-ware-main</artifactId>
-        <groupId>com.bsb</groupId>
+        <groupId>com.xiyou3g</groupId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <artifactId>middle-ware-oauth2</artifactId>
-            <groupId>com.bsb</groupId>
+            <groupId>com.xiyou3g</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

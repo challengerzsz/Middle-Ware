@@ -1,7 +1,6 @@
-package com.bsb.oauth2.authentication;
+package com.xiyou3g.oauth2.authentication;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
@@ -16,12 +15,12 @@ import java.io.IOException;
  * @version 1.0
  */
 @Component
+@Slf4j
 public class OAuth2AuthenticationSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 
-    private Logger logger = LoggerFactory.getLogger(getClass());
-
     @Override
-    public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws ServletException, IOException {
+    public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
+                                        Authentication authentication) throws ServletException, IOException {
         super.onAuthenticationSuccess(request, response, authentication);
     }
 }

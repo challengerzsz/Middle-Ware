@@ -1,4 +1,4 @@
-package com.bsb.oauth2.config;
+package com.xiyou3g.oauth2.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
